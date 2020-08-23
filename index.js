@@ -11,12 +11,15 @@ if(votingAge>18){
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
-let name = 'Faisal';
- let age = 22;
+let name ="Faisal"
+let age = 21
 
 if(name === 'Faisal'){
-name = age;
+name =age
 }
+
+
+
 
 
 
@@ -219,13 +222,13 @@ aSong();
 
 function gradeCalc(grade){
     if(grade === 90){
-        console.log(A)
+        console.log("A")
     }else if(grade === 80){
-        console.log(B)
+        console.log("B")
     }else if(grade === 70){
-        console.log(C)
+        console.log("C")
     }else if(grade === 60){
-        console.log(D)
+        console.log("D")
     }else if(grade < 60){
         console.log("Sorry you got a graded F")
     }else{
